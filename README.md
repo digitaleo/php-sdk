@@ -2,7 +2,7 @@
 
 # Digitaleo PHP SDK
 
-[![Latest Stable Version](https://poser.pugx.org/digitaleo/php-sdk/v/stable)](https://packagist.org/packages/digitaleo/php-sdk) [![Total Downloads](https://poser.pugx.org/digitaleo/php-sdk/downloads)](https://packagist.org/packages/digitaleo/php-sdk) [![Latest Unstable Version](https://poser.pugx.org/digitaleo/php-sdk/v/unstable)](https://packagist.org/packages/digitaleo/php-sdk) [![License](https://poser.pugx.org/digitaleo/php-sdk/license)](https://packagist.org/packages/digitaleo/php-sdk)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/aee36a27-a9bb-4d5f-9802-2a27b15a6aba/mini.png)](https://insight.sensiolabs.com/projects/aee36a27-a9bb-4d5f-9802-2a27b15a6aba) [![Latest Stable Version](https://poser.pugx.org/digitaleo/php-sdk/v/stable)](https://packagist.org/packages/digitaleo/php-sdk) [![Total Downloads](https://poser.pugx.org/digitaleo/php-sdk/downloads)](https://packagist.org/packages/digitaleo/php-sdk) [![Latest Unstable Version](https://poser.pugx.org/digitaleo/php-sdk/v/unstable)](https://packagist.org/packages/digitaleo/php-sdk) [![License](https://poser.pugx.org/digitaleo/php-sdk/license)](https://packagist.org/packages/digitaleo/php-sdk)
 
 This library aims to give to developers a nice SDK to work with Digitaleo's APIs.
 
@@ -28,7 +28,7 @@ $credentials = new \Digitaleo\SDK\Api\Credentials(
     'your-username',
     'your-password'
 );
-$adapter     = new \Digitaleo\SDK\Api\Authentication\oAuth2Adapter($credentials);
+$adapter     = new \Digitaleo\SDK\Api\Authentication\OAuth2Adapter($credentials);
 $client      = new \Digitaleo\SDK\Api\Client($adapter);
 
 # How to post a contact

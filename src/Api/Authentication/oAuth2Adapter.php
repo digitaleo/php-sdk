@@ -7,11 +7,11 @@ use GuzzleHttp\Exception\ClientException;
 use RuntimeException;
 
 /**
- * Class oAuth2Adapter
+ * Class OAuth2Adapter
  *
  * @package Digitaleo\SDK\Api\Authentication
  */
-class oAuth2Adapter extends AuthenticationAdapter
+class OAuth2Adapter extends AuthenticationAdapter
 {
     /**
      * oAuth server's URL
