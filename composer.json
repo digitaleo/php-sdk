@@ -1,0 +1,26 @@
+{
+    "name": "digitaleo/php-sdk",
+    "description": "PHP client for Digitaleo's API",
+    "type": "lib",
+    "autoload": {
+        "psr-4": {
+            "Digitaleo\\SDK\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.3"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Thomas Sieffert",
+            "email": "tsieffert@digitaleo.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
